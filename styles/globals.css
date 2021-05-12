@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Archivo', sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 a {
@@ -14,3 +17,237 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 1290px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 4px solid #E4E4E4;
+}
+
+header div {
+  align-self: center;
+}
+
+header img {
+  height: auto;
+  align-self: center;
+}
+
+.mainContent {
+  margin: 50px auto;
+  padding: 0 0 50px;
+  border-bottom: 4px solid #E4E4E4;
+}
+
+.mainContentTop {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px;
+}
+
+.mainContentTop button {
+  align-self: center;
+  background-color: #000000;
+  color: #ffffff;
+  outline: 0;
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-weight: 500;
+  width: 257px;
+  height: 47px;
+}
+
+.imgWrap {
+  position: relative;
+}
+
+.imgWrap span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  color: #000000;
+  width: 160px;
+  height: 30px;
+  right: 0;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 9px 0 0;
+  font-weight: 700;
+}
+
+.mainContent img {
+  width: 100%;
+  height: auto;
+}
+
+.infoWrap {
+  margin: 40px 0 40px;
+}
+
+.aboutWrap h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.aboutWrap span {
+  display: block;
+  font-size: 22px;
+  color: #656565;
+}
+
+.aboutWrap p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.alsoWrapImgCont {
+  display: flex;
+}
+
+.alsoWrapImg{
+  margin-right: 20px;
+}
+
+.alsoWrapImg:last-of-type {
+  margin-right: 0;
+}
+
+.alsoWrap span {
+  display: block;
+  padding: 0 0 20px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.productsTop {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 40px;
+}
+
+.productsTop h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.paginationWrap {
+  text-align: center;
+  margin: 40px 0 0;
+}
+
+.checkboxWrap input {
+  margin: 0 10px 20px 0;
+}
+
+.filtersSidebar {
+  width: 100%;
+  position: absolute;
+  bottom: -100%;
+}
+
+.filtersSidebar h3.priceHeader {
+  border-top: 2px solid #E4E4E4;
+  display: block;
+  padding: 25px 0 0;
+}
+
+.paginationWrap a.arrow {
+  font-weight: 900;
+  color: black;
+}
+
+.paginationWrap a.active {
+  font-weight: 600;
+  color: black;
+}
+
+.paginationWrap a {
+  font-weight: 400;
+  color: #B4B4B4;
+  margin: 0 10px;
+}
+
+.sortControls {
+  color: #9B9B9B;
+}
+
+.sortControls select {
+  border: 0;
+  margin: 0 0 0 15px;
+  width: 85px;
+}
+
+.downArrow {
+  margin: 0 10px 0 0;
+}
+
+.filtersSidebar {
+  display: none;
+}
+
+.sortControls {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  body {
+    padding: 40px 80px;
+  }
+  .imgWrap span {
+    width: 271px;
+    height: 67px;
+    padding: 20px 0 0;
+  }
+  .infoWrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .aboutWrap {
+    max-width: 700px;
+  }
+
+  .productsBottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .productsGrid {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .filtersSidebar {
+    width: 200px;
+  }
+  .productsTop h2 {
+    margin: 0;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 800px) {
+  .filtersSidebar {
+    display: block;
+  }
+  .sortControls {
+    display: block;
+  }
+  .filterImage {
+    display: none;
+  }
+  .filtersSidebar {
+    width: 200px;
+    position: initial;
+  }
+}
+

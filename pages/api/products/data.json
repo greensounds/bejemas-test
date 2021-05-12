@@ -1,0 +1,264 @@
+{
+  "products": [
+    {
+      "name": "Basketball Sneakers",
+      "category": "sneakers",
+      "price": 80,
+      "currency": "USD",
+      "image": {
+        "src": "/images/basketball-sneakers.jpg",
+        "alt": "Basketball Sneakers"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Beach Hat",
+      "category": "hats",
+      "price": 15,
+      "currency": "USD",
+      "image": {
+        "src": "/images/beach-hat.jpg",
+        "alt": "Beach Hat"
+      },
+        "bestseller": true,
+        "featured": false,
+        "details": null
+    },
+    {
+      "name": "Black Backpack",
+      "category": "backpacks",
+      "price": 50,
+      "currency": "USD",
+      "image": {
+        "src": "/images/black-backpack.jpg",
+        "alt": "Black Backpack"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Black Boots",
+      "category": "Boots",
+      "price": 120,
+      "currency": "USD",
+      "image": {
+        "src": "/images/black-boots.jpg",
+        "alt": "Black Boots"
+      },
+        "bestseller": true,
+        "featured": false,
+        "details": null
+    },
+    {
+      "name": "Black Headphones",
+      "category": "headphones",
+      "price": 70,
+      "currency": "USD",
+      "image": {
+        "src": "/images/black-headphones.jpg",
+        "alt": "Black Headphones"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Black Shoes",
+      "category": "shoes",
+      "price": 100,
+      "currency": "USD",
+      "image": {
+        "src": "/images/black-shoes.jpg",
+        "alt": "Black Shoes"
+      },
+        "bestseller": true,
+        "featured": false,
+        "details": null
+    },
+    {
+      "name": "Blue Backpack",
+      "category": "backpacks",
+      "price": 80,
+      "currency": "USD",
+      "image": {
+        "src": "/images/blue-backpack.jpg",
+        "alt": "Blue Backpack"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Blue Hat",
+      "category": "hats",
+      "price": 20,
+      "currency": "USD",
+      "image": {
+        "src": "/images/blue-hat.jpg",
+        "alt": "Blue Hat"
+      },
+        "bestseller": true,
+        "featured": false,
+        "details": null
+    },
+    {
+      "name": "Bluetooth Headphones",
+      "category": "headphones",
+      "price": 140,
+      "currency": "USD",
+      "image": {
+        "src": "/images/bluetooth-headphones.jpg",
+        "alt": "Bluetooth Headphones"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Casual Watch",
+      "category": "watches",
+      "price": 100,
+      "currency": "USD",
+      "image": {
+        "src": "/images/casual-watch.jpg",
+        "alt": "Casual Watch"
+      },
+        "bestseller": true,
+        "featured": false,
+        "details": null
+    },
+    {
+      "name": "Cool Sunglasses",
+      "category": "sunglasses",
+      "price": 40,
+      "currency": "USD",
+      "image": {
+        "src": "/images/cool-sunglasses.jpg",
+        "alt": "Cool Sunglasses"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Luxory Watch",
+      "category": "watches",
+      "price": 200,
+      "currency": "USD",
+      "image": {
+        "src": "/images/luxory-watch.jpg",
+        "alt": "Luxory Watch"
+      },
+        "bestseller": true,
+        "featured": false,
+        "details": null
+    },
+    {
+      "name": "Man Sunglasses",
+      "category": "sunglasses",
+      "price": 20,
+      "currency": "USD",
+      "image": {
+        "src": "/images/man-sunglasses.jpg",
+        "alt": "Man Sunglasses"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Rounded Glasses",
+      "category": "glasses",
+      "price": 120,
+      "currency": "USD",
+      "image": {
+        "src": "/images/rounded-glasses.jpg",
+        "alt": "Rounded Glasses"
+      },
+        "bestseller": true,
+        "featured": false,
+        "details": null
+    },
+    {
+      "name": "Smart Watch",
+      "category": "watches",
+      "price": 95,
+      "currency": "USD",
+      "image": {
+        "src": "/images/smart-watch.jpg",
+        "alt": "Smart Watch"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Travel Backpack",
+      "category": "backpacks",
+      "price": 120,
+      "currency": "USD",
+      "image": {
+        "src": "/images/travel-backpack.jpg",
+        "alt": "Travel Backpack"
+      },
+        "bestseller": true,
+        "featured": false,
+        "details": null
+    },
+    {
+      "name": "Vintage glasses",
+      "category": "glasses",
+      "price": 75,
+      "currency": "USD",
+      "image": {
+        "src": "/images/vintage-glasses",
+        "alt": "Vintage Glasses"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Vintage Glasses",
+      "category": "glasses",
+      "price": 65,
+      "currency": "USD",
+      "image": {
+        "src": "/images/vintage-glasses.jpg",
+        "alt": "Vintage Glasses"
+      },
+        "bestseller": true,
+        "featured": false,
+        "details": null
+    },
+    {
+      "name": "Vintage Watch",
+      "category": "watches",
+      "price": 99,
+      "currency": "USD",
+      "image": {
+        "src": "/images/vintage-watch.jpg",
+        "alt": "Vintage Watch"
+      },
+        "bestseller": true,
+        "featured": false,
+        "details": null
+    },
+    {
+      "name": "Yellow Hat",
+      "category": "hats",
+      "price": 20,
+      "currency": "USD",
+      "image": {
+        "src": "/images/yellow-hat.jpg",
+        "alt": "Yellow Hat"
+      },
+        "bestseller": true,
+        "featured": false,
+        "details": null
+    }
+  ]
+}

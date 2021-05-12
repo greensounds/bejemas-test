@@ -1,0 +1,72 @@
+.productWrap {
+    width: 280px;
+    position: relative;
+    margin: 0 40px 40px 0;
+}
+
+.productWrap:nth-child(3), .productWrap:nth-child(6) {
+    margin-right: 0;
+}
+
+.bestsellerLabel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 2;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 4px 0 0;
+    padding: 4px 20px 4px;
+}
+
+.categoryLabel {
+    display: block;
+    text-transform: capitalize;
+    color: #656565;
+    padding: 7px 0;
+}
+
+.addBtn {
+    display: block;
+    position: absolute;
+    text-align: left;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    bottom: 91px;
+    text-align: center;
+    padding: 15px;
+    -webkit-transform-origin: bottom;
+    -moz-transform-origin: bottom;
+    transform-origin: bottom;
+    -moz-transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    opacity: 0;
+    -webkit-transition: 300ms;
+    outline: 0;
+    border: 0;
+    color: white;
+    -moz-transition: 300ms;
+    transition: 300ms;
+    letter-spacing: 0.07em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.productWrap:hover .addBtn {
+    -moz-transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.productWrap h2 {
+    margin: 0 0 4px;
+}
+
+.priceLabel {
+    font-size: 25px;
+    color: #656565;
+}
